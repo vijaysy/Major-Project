@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RootScrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity" >
+
+        <TextView
+            android:id="@+id/showD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:text="@string/ls"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/mobilno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/ano"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/WithDrawAmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/password"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/WtDraSub"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="54dp"
+            android:background="@drawable/button_pressed"
+            android:onClick="login"
+            android:text="@string/Login" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/chkBxString" />
+
+    </LinearLayout>
+
+</ScrollView>

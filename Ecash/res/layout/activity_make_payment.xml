@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+            android:id="@+id/showD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/crddetails"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+<EditText
+            android:id="@+id/cardTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/crdno"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+<EditText
+            android:id="@+id/mobilno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/cardname"
+            android:inputType="textPersonName" />
+<EditText
+            android:id="@+id/cvvTxt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/cvv"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+<EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+<View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/Black" />
+<Button
+            android:id="@+id/WtDraSub"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_pressed"
+            android:text="@string/submit" />
+
+</LinearLayout>

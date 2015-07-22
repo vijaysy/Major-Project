@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eWallet</string>
+    <string name="action_settings">Settings</string>
+    <string name="ls">eWallet</string>
+    <string name="mkpay">Make Payment</string>
+    <string name="ano">Customer ID</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="attempts">Attempts Left:</string>
+    <string name="B1">&#160;My Balance</string>
+    <string name="B2">&#160;Withdrawal</string>
+    <string name="B3">&#160;Deposit</string>
+    <string name="B4">&#160;Receive</string>
+    <string name="B5">&#160;Spend</string>
+    <string name="B6">&#160;Test Data</string>
+    <string name="crdno">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="cardname">Enter the name on your card</string>
+    <string name="money">Withdraw Amount</string>
+    <string name="submit">Submit</string>
+    <string name="crddetails">Card Details</string>
+    <string name="sendsms">Sending Via SMS</string>
+    <string name="mobinum">Enter the mobile number</string>
+    <string name="amt">Total Amount</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">NO</string>
+    <string name="keyD">User key D</string>
+    <string name="keyN">User Key N</string>
+    <string name="dataBtnKey">Update User Keys</string>
+    <string name="dispKey">Display Keys</string>
+    <string name="chkBxString">Loging In For First time </string>
+    <string name="amt10">Available 10\'s: </string>
+    <string name="amt50">Available 50\'s: </string>
+    <string name="amt100">Available 100\'s: </string>
+    <string name="numPickTxt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;10\'s&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;50\'s&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;100\'s</string>
+    <string name="SpndBtn">Spend</string>
+    <string name="DSlctAmt">Chose The Number Of Coins</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="title_activity_after_login3">AfterLogin3</string>
+    <string name="refrs">Resresh</string>
+    <string name="title_activity_make_payment">MakePayment</string>
+    <string name="em">Spend Via Email</string>
+    <string name="bt">Spend Via Bluetooth</string>
+    <string name="nfc">Spend Vie NFC</string>
+    <string name="brws">Browse</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="hsrt">History</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="ursdet">"User Details "</string>
+    <string name="uname">User Name:</string>
+    <string name="PrAccNo">Account Number:</string>
+    <string name="PrEM">Email:</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="abtUs">About Us</string>
+
+</resources>
